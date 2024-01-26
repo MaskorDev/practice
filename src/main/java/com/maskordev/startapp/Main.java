@@ -47,7 +47,24 @@ public class Main {
         //task #8
         RandNumbGame randNumbGame = new RandNumbGame(1);
         randNumbGame.game();
+        System.out.println("\n");
 
         //task #9
+        SumInInterval sum = new SumInInterval(26, 30);
+        System.out.println(sum.sum() + "\n");
+
+        //task #10
+        SimpleNumber simpleNumber = new SimpleNumber(13);
+        System.out.println(simpleNumber.isSimpleNumber() + "\n");
+
+        //task #11
+
+
+        //task #12
+        MinInArray.fillArray();
+        MinInArray.minInArray();
+        System.out.println("\n");
+
+        //task #13
     }
 }
