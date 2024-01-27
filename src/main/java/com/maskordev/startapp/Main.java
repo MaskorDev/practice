@@ -66,5 +66,16 @@ public class Main {
         System.out.println("\n");
 
         //task #13
+        ConverterSS converterSS = new ConverterSS(42);
+        System.out.println(converterSS.fromDecimalToBinary() + "\n");
+
+        //task #14
+        ReverseSentence reverseSentence = new ReverseSentence("прикладная компьютерная программа");
+        reverseSentence.fillArr();
+        reverseSentence.printReverseArr();
+        System.out.println("\n");
+
+
+        //task #15
     }
 }
