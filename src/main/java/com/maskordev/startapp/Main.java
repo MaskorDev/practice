@@ -58,7 +58,7 @@ public class Main {
         System.out.println(simpleNumber.isSimpleNumber() + "\n");
 
         //task #11
-
+        System.out.println(FibonacciNumber.calcFibonacci(10));
 
         //task #12
         MinInArray.fillArray();
@@ -70,12 +70,15 @@ public class Main {
         System.out.println(converterSS.fromDecimalToBinary() + "\n");
 
         //task #14
+        SearchSimpleNumber searchSimpleNumber = new SearchSimpleNumber(1, 7);
+        System.out.println(searchSimpleNumber.searchSimpleNumber() + "\n");
+
+
+        //task #15
         ReverseSentence reverseSentence = new ReverseSentence("прикладная компьютерная программа");
         reverseSentence.fillArr();
         reverseSentence.printReverseArr();
         System.out.println("\n");
 
-
-        //task #15
     }
 }

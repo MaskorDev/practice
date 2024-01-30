@@ -1,16 +1,14 @@
 package com.maskordev.tasks;
 
 public class FibonacciNumber {
-    private final int N;
 
-    public FibonacciNumber(int N) {
-        this.N = N;
-    }
-
-    public void calcFibonacci() {
-        if (N == 1 || N == 2) {
-            System.out.println();
+    public static int calcFibonacci(int N) {
+        if (N == 1)
+            return 1;
+        else if (N == 0)
+            return 0;
+        else {
+            return calcFibonacci(N-1) + calcFibonacci(N-2);
         }
-        System.out.println();
     }
 }
